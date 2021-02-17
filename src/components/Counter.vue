@@ -25,9 +25,4 @@ setTimeout(() => {
   name.value = "Maria";
 }, 2000)
 
-
-setTimeout(() => {
-  name.value = "Pedro";
-}, 3000)
-
 </script>
