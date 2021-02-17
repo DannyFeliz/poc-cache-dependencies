@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vuedx-typecheck . && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "postinstall": "echo \"we're done\""
   },
   "dependencies": {
     "vue": "^3.0.5"
