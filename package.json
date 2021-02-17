@@ -8,6 +8,7 @@
     "postinstall": "echo \"we're done\""
   },
   "dependencies": {
+    "lodash": "^4.17.20",
     "vue": "^3.0.5"
   },
   "devDependencies": {
