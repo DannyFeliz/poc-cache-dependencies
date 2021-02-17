@@ -26,5 +26,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: bahmutov/npm-install@v1
         with:
-          install-command: npm install && ls
+          install-command: |
+            npm install
+            ls
       - run: npm run build
